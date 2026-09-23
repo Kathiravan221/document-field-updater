@@ -79,7 +79,7 @@ function Home() {
       });
 
       const response = await fetch(
-        "http://localhost:8080/api/documents/analyze",
+        "https://document-field-updater.onrender.com/api/documents/analyze",
         {
           method: "POST",
           body: formData,
@@ -301,7 +301,7 @@ function Home() {
       // ==========================================
 
       const response = await fetch(
-        "http://localhost:8080/api/documents/update",
+        "https://document-field-updater.onrender.com/api/documents/update",
         {
           method: "POST",
           body: formData,
