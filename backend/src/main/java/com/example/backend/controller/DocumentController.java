@@ -28,6 +28,7 @@ import java.util.zip.ZipOutputStream;
 
 @RestController
 @RequestMapping("/api/documents")
+@CrossOrigin(origins = "https://document-field-updater-ibp9.vercel.app")
 public class DocumentController {
 
     private final DocumentAnalysisService analysisService;
